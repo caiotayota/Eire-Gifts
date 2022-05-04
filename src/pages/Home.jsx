@@ -1,14 +1,14 @@
-import React from 'react'
-import Announcement from '../components/Announcement/Announcement';
-import Navbar from '../components/Navbar/Navbar';
 import Slider from '../components/Slider/Slider';
+import Newsletter from '../components/Newsletter/Newsletter';
+import Product from '../components/Product/Product';
+import Products from '../components/Products/Products';
 
 function Home() {
   return (
     <div>
-        <Announcement />
-        <Navbar/>
         <Slider />
+        {/* <Products /> */}
+        <Newsletter />
     </div>
   )
 }
